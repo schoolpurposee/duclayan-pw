@@ -1,0 +1,55 @@
+*
+.container
+{
+    width: 100%;
+    min-width: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul
+{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+li a:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 195, 255));
+  }
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(9, 255, 255);
+    font-size: larger;
+    text-decoration: none;
+}
+body {
+    background-image:url(imgkoto/cutiepie.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    h1, h2, p {
+        margin: 3%;
+        color: rgb(0, 0, 0);
+        font-size: xx-large;
+        font-family: Arial;
+        }
